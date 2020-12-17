@@ -1,6 +1,6 @@
 name: 'Typescript compiler'
 description: 'Compile your Typescript code and check for errors.'
-author: 'iCrawl'
+author: 'Friendly0Fire'
 branding:
   icon: alert-circle
   color: blue
@@ -9,10 +9,10 @@ inputs:
     description: 'Optional project path.'
     required: false
   build:
-    description: 'Optional build reference path.'
+    description: 'Optional tsconfig.json path; enables build mode.'
     required: false
   executable:
-    description: 'Compilation Executable (tsc or ttsc)'
+    description: 'Compilation Executable (e.g. tsc or ttsc)'
     default: 'tsc'
     required: false
 runs:

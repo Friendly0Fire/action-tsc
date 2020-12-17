@@ -27,7 +27,7 @@ jobs:
       uses: icrawl/action-tsc@v1
 ```
 
-### Passing command-line parameters to `tsc`
+### Parameters
 
 You can pass the `--project` parameter to `tsc` if your `tsconfig.json` is not in the root of your project:
 
@@ -38,17 +38,10 @@ You can pass the `--project` parameter to `tsc` if your `tsconfig.json` is not i
         project: subdirectorywith_tsconfig
 ```
 
-## Contributing
+Similarly, you can pass the `--build` parameter to `tsc`.
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+You can specify `executable` to use, e.g., `ttsc` instead of the default `tsc`.
 
 ## Author
 
-**action-tsc** © [iCrawl](https://github.com/iCrawl)  
-Authored and maintained by iCrawl.
-
-> GitHub [@iCrawl](https://github.com/iCrawl) · Twitter [@iCrawlToGo](https://twitter.com/iCrawlToGo)
+Authored by iCrawl. Repackaged by Friendly0Fire.
